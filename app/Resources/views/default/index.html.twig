@@ -39,6 +39,8 @@
                     <a href="http://symfony.com/doc/{{ constant('Symfony\\Component\\HttpKernel\\Kernel::VERSION')[:3] }}/page_creation.html">
                         How to create your first page in Symfony
                     </a>
+
+                    <a href="{{ path('page', { 'slug': 'one' }) }}">Page One</a>
                 </p>
             </div>
 
